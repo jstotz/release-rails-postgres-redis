@@ -1,4 +1,4 @@
-FROM ruby:3.0.0-alpine
+FROM us-east1-docker.pkg.dev/abstract-plane-314813/jstotz-private-registry-test/foo
 RUN apk add --update --no-cache bash build-base nodejs tzdata postgresql-dev yarn shared-mime-info
 RUN gem install bundler
 
