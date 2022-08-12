@@ -1,4 +1,4 @@
-FROM us-east1-docker.pkg.dev/abstract-plane-314813/jstotz-private-registry-test/foo
+FROM us-west2-docker.pkg.dev/jays-private-registry/private-registry-test/foo
 RUN apk add --update --no-cache bash build-base nodejs tzdata postgresql-dev yarn shared-mime-info
 RUN gem install bundler
 
