@@ -1,4 +1,4 @@
-FROM us-west2-docker.pkg.dev/jays-private-registry/private-registry-test/foo1
+FROM ruby:3.0.0-alpine
 RUN apk add --update --no-cache bash build-base nodejs tzdata postgresql-dev yarn shared-mime-info
 RUN gem install bundler
 
