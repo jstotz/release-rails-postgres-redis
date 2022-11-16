@@ -1,3 +1,4 @@
 .git
 log
 tmp
+node_modules
